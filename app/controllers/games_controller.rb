@@ -26,7 +26,7 @@ class GamesController < ApplicationController
         @score = "Sorry but #{@word.upcase} does not seem to be a valid English word..."
       end
     else
-      @score = "Sorry but #{@word.upcase} can't be built our of #{grid.join(' ')}"
+      @score = "Sorry but #{@word.upcase} can't be built out of #{grid.join(' ')}"
     end
   end
 end
